@@ -1,6 +1,6 @@
 {
   "name": "vue3-date-time-picker",
-  "version": "2.8.1",
+  "version": "2.8.2",
   "description": "Datepicker component for Vue 3",
   "author": "Vuepic",
   "private": false,
@@ -15,7 +15,8 @@
   "files": [
     "dist/*",
     "src/**/*",
-    "index.d.ts"
+    "index.d.ts",
+    "postinstall.js"
   ],
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.ts",
