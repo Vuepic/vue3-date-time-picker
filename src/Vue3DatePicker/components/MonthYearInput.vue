@@ -243,7 +243,7 @@
         return props.range && props.internalModelValue && props.monthPicker ? (props.internalModelValue as Date[]) : [];
     });
 
-    const getGroupedList = (items: IDefaultSelect[], reverse: Boolean = false): IDefaultSelect[][] => {
+    const getGroupedList = (items: IDefaultSelect[], reverse = false): IDefaultSelect[][] => {
         const list = [];
 
         for (let i = 0; i < items.length; i += 3) {

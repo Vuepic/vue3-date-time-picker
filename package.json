@@ -1,6 +1,6 @@
 {
   "name": "vue3-date-time-picker",
-  "version": "2.8.0",
+  "version": "2.8.1",
   "description": "Datepicker component for Vue 3",
   "author": "Vuepic",
   "private": false,
@@ -26,7 +26,8 @@
     "test": "cross-env NODE_ENV=test node_modules/.bin/vue-cli-service test:unit",
     "lint": "run-s lint:style lint:vue",
     "lint:style": "stylelint --fix \"src/**/*.scss\"",
-    "lint:vue": "eslint --fix \"src/**\" --ignore-pattern \"src/**/*.scss\""
+    "lint:vue": "eslint --fix \"src/**\" --ignore-pattern \"src/**/*.scss\"",
+    "postinstall": "node postinstall.js"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
